@@ -1,11 +1,11 @@
 import {Container} from '@/components/layout/container'
 
-export const Index = () => {
+export const Contact = () => {
   return (
     <Container>
-      <div>Index Content</div>
+      <div>Contact Content</div>
     </Container>
   )
 }
 
-export default Index
+export default Contact

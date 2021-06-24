@@ -1,11 +1,11 @@
 import {Container} from '@/components/layout/container'
 
-export const Index = () => {
+export const Services = () => {
   return (
     <Container>
-      <div>Index Content</div>
+      <div>Services Content</div>
     </Container>
   )
 }
 
-export default Index
+export default Services
