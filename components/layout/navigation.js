@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import {NavigationLink} from '@/components/elements/navigation-link'
 import {LightSwitch} from 'components/elements/lightswitch'
 
 export const Navigation = () => {
@@ -9,11 +10,11 @@ export const Navigation = () => {
             <strong>Lukas Wiesehan</strong><br/>Design &<br/>Development
           </div>
         </Link>
-        <ul className="font-bold text-gray-700 dark:text-cool-gray-100 space-y-2">
-          <li><Link href="/services">Services</Link></li>
-          <li><Link href="/showcase">Showcase</Link></li>
-          <li><Link href="/about">Über Mich</Link></li>
-          <li><Link href="/contact">Kontakt</Link></li>
+        <ul className="space-y-2">
+          <li><NavigationLink href="/services" anchor="Services" emoji="flexed-biceps"/></li>
+          <li><NavigationLink href="/showcase" anchor="Showcase" emoji="call-me-hand"/></li>
+          <li><NavigationLink href="/about" anchor="Über Mich" emoji="victory-hand"/></li>
+          <li><NavigationLink href="/contact" anchor="Kontakt" emoji="waving-hand"/></li>
         </ul>
         <LightSwitch/>
       </nav>
