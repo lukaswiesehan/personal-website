@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import {useRouter} from 'next/router'
 import {Navigation} from '@/components/layout/navigation'
+import {Footer} from '@/components/layout/footer'
 
 export const Container = ({children, ...customMeta}) => {
   const router = useRouter()
@@ -43,9 +44,13 @@ export const Container = ({children, ...customMeta}) => {
 
 
       <Navigation/>
-      <main className="w-full max-w-screen-md">
-        {children}
-      </main>
+      <div className="w-full max-w-screen-md">
+        <main>
+          {children}
+        </main>
+        <Footer/>
+      </div>
+      
 
 
 
