@@ -4,7 +4,7 @@ export const SubmitForm = async (req, res) => {
   try {
     const {honeypot, name, phone} = req.body
     if(honeypot === '') {
-      const success = await sendNotification({message: `${name} bittet über das Website-Formular um Rückruf: <tel:${phone}|${phone}>`})
+      const success = await sendNotification({message: `${name} bittet über das Website-Formular um Rückruf: <tel:${phone.replace(' ', '')}|${phone}>`})
       res.status(success ? 200 : 500).json({
         success
       })
