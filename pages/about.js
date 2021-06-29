@@ -12,18 +12,18 @@ export const About = () => {
     <Container>
       <Title
         breadcrumbs={[{text: 'Über Mich', emoji: 'victory-hand'}]}
-        title={<h1><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler,</span> Bastler, Ingenieur</h1>}
+        title={<h1><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler,</span><br/>Bastler, Ingenieur</h1>}
         text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
       />
       <div className="grid grid-cols-2 grid-rows-3 gap-8">
         <Card>
-          <div className="p-7 pt-6 h-72 space-y-4">
+          <div className="p-7 pt-6 space-y-4">
             <div className="flex">
               <div className="space-y-4">
                 <Heading><span className="text-teal-600 dark:text-teal-500">Ich bin Lukas,</span></Heading>
                 <p>selbstständiger Designer und Entwickler bei Hamburg.</p>
               </div>
-              <div className="flex-shrink-0"><Memoji/></div>
+              <div className="flex-shrink-0 transform transition-transform duration-300 group-hover:rotate-3 group-hover:scale-105"><Memoji/></div>
             </div>
             <p>Ich lebe meine Kreativität im Design aus und fordere meine technischen Fähigkeiten bei der Entwicklung. Für mich die perfekte Kombination.</p>
           </div>
@@ -65,9 +65,8 @@ export const About = () => {
             <div className="space-y-4">
               <Heading>Über meine Arbeit</Heading>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque ornare proin auctor diam. Gravida nulla a, aliquet id elementum facilisi.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <CardLink href="/showcase" anchor="Showcase" ext={true}/>
+            <CardLink href="/showcase" anchor="Showcase"/>
           </div>
         </Card>
       </div>
