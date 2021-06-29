@@ -46,12 +46,12 @@ export const Services = () => {
         </Card>
         <Card>
           <div className="p-7 pt-6 h-full flex flex-col justify-between">
-            <div className="space-y-4 mb-8">
+            <div className="space-y-8 mb-8">
               <div>
                 <SubHeading>Visual Design</SubHeading>
                 <Heading>Grafik & Prints</Heading>
+                <p className="mt-4">Alles, was Du an visuellen Elementen und Drucksachen für einen modernen und professionellen Auftritt brauchst.</p>
               </div>
-              <p>Alles, was Du an visuellen Elementen und Drucksachen für einen modernen und professionellen Auftritt brauchst.</p>
               <EmojiList elements={[
                 {emoji: 'artist-palette', text: 'Logo & Brand Guide'},
                 {emoji: 'mobile-phone', text: 'Social Media Kit'},
