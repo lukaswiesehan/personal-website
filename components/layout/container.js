@@ -41,8 +41,6 @@ export const Container = ({children, ...customMeta}) => {
         <link rel="icon" href="/favicon.ico"/>
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
       </Head>
-
-
       <Navigation/>
       <div className="w-full max-w-screen-md">
         <main>
@@ -50,10 +48,6 @@ export const Container = ({children, ...customMeta}) => {
         </main>
         <Footer/>
       </div>
-      
-
-
-
     </div>
   )
 }

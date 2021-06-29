@@ -30,7 +30,7 @@ export const About = () => {
         </Card>
         <Card className="row-span-2">
           <div className="p-7 pt-6 h-full flex flex-col justify-between">
-            <div className="space-y-4">
+            <div className="space-y-4 mb-4">
               <Heading>Privat</Heading>
               <EmojiList elements={[
                 {emoji: 'light-bulb', text: 'Ich bastle gern an Elektronik- und 3D-Druck-Projekten.'},
@@ -56,13 +56,13 @@ export const About = () => {
         </Card>
         <Card className="col-span-2 grid grid-cols-2 gap-8 overflow-hidden">
           <div className="hidden dark:flex flex-col justify-end">
-            <Image src="/images/illustrations/about-work-dark.png" width="600" height="383"/>
+            <Image src="/images/illustrations/about-work-dark.png" width="600" height="336"/>
           </div>
           <div className="flex dark:hidden flex-col justify-end">
-            <Image src="/images/illustrations/about-work-light.png" width="600" height="383"/>
+            <Image src="/images/illustrations/about-work-light.png" width="600" height="336"/>
           </div>
           <div className="p-7 pt-6 pl-0 flex flex-col justify-between">
-            <div className="space-y-4">
+            <div className="space-y-4 mb-4">
               <Heading>Über meine Arbeit</Heading>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque ornare proin auctor diam. Gravida nulla a, aliquet id elementum facilisi.</p>
             </div>

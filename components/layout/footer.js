@@ -17,9 +17,9 @@ export const Footer = () => {
           <li><Link href="/contact">Kontakt</Link></li>
         </ul>
         <ul className="flex space-x-4">
-          <li><Link href="/"><a target="_blank"><FontAwesomeIcon icon={faInstagram}/></a></Link></li>
-          <li><Link href="/"><a target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a></Link></li>
-          <li><Link href="/"><a target="_blank"><FontAwesomeIcon icon={faGithub}/></a></Link></li>
+          <li><Link href="https://instagram.com/lukaswiesehan"><a target="_blank"><FontAwesomeIcon icon={faInstagram}/></a></Link></li>
+          <li><Link href="https://www.linkedin.com/in/lukas-wiesehan-74931b1bb/"><a target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a></Link></li>
+          <li><Link href="https://github.com/lukaswiesehan"><a target="_blank"><FontAwesomeIcon icon={faGithub}/></a></Link></li>
         </ul>
       </div>
     </footer>
