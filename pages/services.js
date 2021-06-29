@@ -21,7 +21,7 @@ export const Services = () => {
             <div className="col-span-2 p-7 pt-6 pb-0 space-y-4">
               <div>
                 <SubHeading>Design & Entwicklung</SubHeading>
-                <Heading>Website, Online-Shop oder Web-App</Heading>
+                <Heading>Website, Online-Shop & Web-App</Heading>
               </div>
               <p>Gemeinsam erarbeiten wir ein einzigartiges Design, das perfekt zur Dir oder Deinem Unternehmen passt. Durch die individuelle Entwicklung sind wir dabei nicht an irgendwelche Systeme oder Themes gebunden. Bei der Entwicklung setze ich auf neueste Technologien, um Dir und Deinen Nutzern die bestmögliche Erfahrung zu bieten - genau an Deine Bedürfnisse angepasst.</p>
             </div>

@@ -5,7 +5,7 @@ import {LightSwitch} from 'components/elements/lightswitch'
 export const Navigation = () => {
   return (
       <nav className="space-y-16">
-        <Link href="/">
+        <Link href="/services">
           <div className="text-lg leading-tight cursor-pointer">
             <strong>Lukas Wiesehan</strong><br/>Design &<br/>Development
           </div>
