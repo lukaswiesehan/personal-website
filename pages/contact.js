@@ -12,7 +12,10 @@ export const Contact = () => {
       <Title
         breadcrumbs={[{text: 'Kontakt', emoji: 'waving-hand'}]}
         title={<h1>Lass uns über<br/><span className="text-teal-600 dark:text-teal-500">Dein Projekt</span><br/>sprechen</h1>}
-        text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
+        text={<div className="space-y-4">
+          <p>Schreib' mir oder lass mich Dich zurückrufen, damit wir über Dein Projekt schnacken können.</p>
+          <p>Ich bin gespannt, wie ich mich einbringen und Dein Projekt auf das nächste Level bringen kann!</p>
+        </div>}
       />
       <div className="grid grid-cols-2 gap-8">
         <Card>
