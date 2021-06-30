@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import {useRouter} from 'next/router'
 import {Navigation} from '@/components/layout/navigation'
+import {MobileNavigation} from '@/components/layout/mobile-navigation'
 import {Footer} from '@/components/layout/footer'
 
 export const Container = ({children, ...customMeta}) => {
@@ -22,7 +23,7 @@ export const Container = ({children, ...customMeta}) => {
   }
 
   return (
-    <div className="w-full max-w-screen-lg mx-auto mt-32 flex justify-between">
+    <div className="w-full max-w-screen-lg px-4 lg:px-0 mt-8 lg:mt-32 lg:mx-auto lg:flex lg:justify-between">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index"/>
@@ -41,8 +42,9 @@ export const Container = ({children, ...customMeta}) => {
         <link rel="icon" href="/favicon.ico"/>
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
       </Head>
-      <Navigation/>
-      <div className="w-full max-w-screen-md">
+      <Navigation className="hidden lg:block"/>
+      <MobileNavigation className="lg:hidden"/>
+      <div className="w-full mx-auto max-w-screen-md">
         <main>
           {children}
         </main>
