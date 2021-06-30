@@ -15,23 +15,23 @@ export const Services = () => {
         title={<h1><span className="text-teal-600 dark:text-teal-500">Full Service</span><br/>Design, Druck & Entwicklung</h1>}
         text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
       />
-      <div className="grid grid-cols-2 grid-rows-2 gap-8">
-        <Card className="col-span-2 overflow-hidden">
-          <div className="grid grid-cols-2 gap-8">
-            <div className="col-span-2 p-7 pt-6 pb-0 space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-8">
+        <Card className="md:col-span-2 overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="order-1 md:col-span-2 p-7 pt-6 pb-0 space-y-4">
               <div>
                 <SubHeading>Design & Entwicklung</SubHeading>
                 <Heading>Website, Online-Shop & Web-App</Heading>
               </div>
               <p>Gemeinsam erarbeiten wir ein einzigartiges Design, das perfekt zur Dir oder Deinem Unternehmen passt. Durch die individuelle Entwicklung sind wir dabei nicht an irgendwelche Systeme oder Themes gebunden. Bei der Entwicklung setze ich auf neueste Technologien, um Dir und Deinen Nutzern die bestmögliche Erfahrung zu bieten - genau an Deine Bedürfnisse angepasst.</p>
             </div>
-            <div className="hidden dark:flex flex-col justify-end">
+            <div className="order-3 md:order-2 mr-8 md:mr-0 hidden dark:flex flex-col justify-end">
               <Image src="/images/illustrations/web-services-dark.png" width="600" height="383"/>
             </div>
-            <div className="flex dark:hidden flex-col justify-end">
+            <div className="order-3 md:order-2 mr-8 md:mr-0 flex dark:hidden flex-col justify-end">
               <Image src="/images/illustrations/web-services-light.png" width="600" height="383"/>
             </div>
-            <div className="pb-7 pr-7 flex flex-col justify-between">
+            <div className="order-2 md:order-3 px-7 md:pb-7 md:pl-0 flex flex-col justify-between">
               <div className="mb-8">
                 <EmojiList elements={[
                   {emoji: 'hammer-and-wrench', text: 'Abgestimmter Funktionsumfang'},

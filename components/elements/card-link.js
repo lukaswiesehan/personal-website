@@ -9,7 +9,7 @@ export const CardLink = ({href, anchor, ext, email}) => {
       <p className="flex items-center space-x-2 font-bold text-gray-700 dark:text-cool-gray-100" target={ext && 'blank'}>
         <FontAwesomeIcon icon={faLongArrowRight} className="text-teal-600 dark:text-teal-500 text-lg"/>
         <span className="
-          opacity-0 transform -translate-x-3 scale-95
+          md:opacity-0 transform md:-translate-x-3 md:scale-95
           transition-all duration-300 
           group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-0
         ">
@@ -23,7 +23,7 @@ export const CardLink = ({href, anchor, ext, email}) => {
         <a className="flex items-center space-x-2 font-bold text-gray-700 dark:text-cool-gray-100" target={ext && 'blank'}>
           <FontAwesomeIcon icon={faLongArrowRight} className="text-teal-600 dark:text-teal-500 text-lg"/>
           <span className="
-            opacity-0 transform -translate-x-3 scale-95
+            md:opacity-0 transform md:-translate-x-3 md:scale-95
             transition-all duration-300 
             group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-0
           ">
