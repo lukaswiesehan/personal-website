@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 export const Card = ({className, children}) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    rootMargin: '-100px 0px',
+    rootMargin: '-48px 0px',
   })
 
   const cardVariants = {
