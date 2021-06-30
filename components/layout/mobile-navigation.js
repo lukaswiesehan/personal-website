@@ -49,14 +49,14 @@ export const MobileNavigation = ({className}) => {
           <LightSwitch/>
         </motion.div>
       </motion.div>
-      <button className="fixed z-20 bottom-8 left-8 flex justify-center items-center h-8 w-8 rounded-lg 
+      <button className="fixed z-20 bottom-8 left-8 flex justify-center items-center h-12 w-12 rounded-xl 
         bg-teal-600 dark:bg-teal-500 shadow dark:shadow-lg text-warm-gray-200 dark:text-cool-gray-600
         focus:outline-none focus:ring-2 focus:ring-teal-600 dark:focus:ring-teal-500 
         focus:ring-offset-2 focus:ring-offset-warm-gray-200 dark:focus:ring-offset-cool-gray-600
         active:bg-teal-700 dark:active:bg-teal-600"
         onClick={toggleOpen}
       >
-        <svg className="w-4 h-4 stroke-current" viewBox="0 0 22 20">
+        <svg className="w-6 h-6 stroke-current" viewBox="0 0 22 20">
           <Path variants={{closed: {d: "M 2 2.5 L 20 2.5"}, open: {d: "M 3 16.5 L 17 2.5"}}}/>
           <Path d="M 2 9.423 L 20 9.423" variants={{closed: {opacity: 1}, open: {opacity: 0}}} transition={{duration: 0.1}}/>
           <Path variants={{closed: {d: "M 2 16.346 L 20 16.346"}, open: {d: "M 3 2.5 L 17 16.346"}}}/>
