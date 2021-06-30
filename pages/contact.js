@@ -17,10 +17,10 @@ export const Contact = () => {
           <p>Ich bin gespannt, wie ich mich einbringen und Dein Projekt auf das nächste Level bringen kann!</p>
         </div>}
       />
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card>
           <div className="p-7 pt-6 h-full flex flex-col justify-between">
-            <div className="space-y-4 mb-4">
+            <div className="space-y-4 mb-8">
               <Heading>Schreib' mir eine Email.</Heading>
               <EmojiList elements={[
                 {emoji: 'e-mail', text: 'Schreib’ mir über Dein Projekt und lass uns gemeinsam sehen, wie ich Dich unterstützen kann.'}
@@ -31,7 +31,7 @@ export const Contact = () => {
         </Card>
         <Card>
           <div className="p-7 pt-6 h-full flex flex-col justify-between">
-            <div className="space-y-4 mb-4">
+            <div className="space-y-4 mb-8">
               <Heading>Lieber schnacken?</Heading>
               <EmojiList elements={[
                 {emoji: 'telephone', text: 'Trag’ hier Deinen Namen und Deine Telefonnummer ein - ich rufe Dich an.'}
