@@ -28,7 +28,7 @@
 		filter: none;
 	}
 	html input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
-		-webkit-box-shadow: 0 0 0 30px black inset !important;
-		color: white;
+		@apply text-teal-600;
+		-webkit-box-shadow: 0 0 0 30px white inset !important;
 	}
 }
