@@ -30,8 +30,8 @@ export const MobileNavigation = ({className}) => {
   }
 
   const childVariants = {
-    open: {x: 0, opacity: 1},
-    closed: {x: -24, opacity: 0, transition: {ease: 'backIn'}}
+    open: {x: 0, opacity: 1, scale: 1},
+    closed: {x: -24, opacity: 0, scale:0.95, transition: {ease: 'backIn'}}
   }
 
   return (

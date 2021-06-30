@@ -25,10 +25,10 @@ export const Services = () => {
               </div>
               <p>Gemeinsam erarbeiten wir ein einzigartiges Design, das perfekt zur Dir oder Deinem Unternehmen passt. Durch die individuelle Entwicklung sind wir dabei nicht an irgendwelche Systeme oder Themes gebunden. Bei der Entwicklung setze ich auf neueste Technologien, um Dir und Deinen Nutzern die bestmögliche Erfahrung zu bieten - genau an Deine Bedürfnisse angepasst.</p>
             </div>
-            <div className="order-3 md:order-2 mr-8 md:mr-0 hidden dark:flex flex-col justify-end">
+            <div className="order-3 md:order-2 mr-8 md:mr-0 max-w-[600px] hidden dark:flex flex-col justify-end">
               <Image src="/images/illustrations/web-services-dark.png" width="600" height="383"/>
             </div>
-            <div className="order-3 md:order-2 mr-8 md:mr-0 flex dark:hidden flex-col justify-end">
+            <div className="order-3 md:order-2 mr-8 md:mr-0 max-w-[600px] flex dark:hidden flex-col justify-end">
               <Image src="/images/illustrations/web-services-light.png" width="600" height="383"/>
             </div>
             <div className="order-2 md:order-3 px-7 md:pb-7 md:pl-0 flex flex-col justify-between">
@@ -75,11 +75,15 @@ export const Services = () => {
                 {emoji: 'package', text: 'Lieferung bis vor Deine Haustür.'}
               ]}/>
             </div>
-            <div className="hidden dark:flex flex-col justify-end ml-8 mt-8">
-              <Image src="/images/illustrations/print-services-dark.png" width="600" height="383"/>
+            <div className="hidden dark:flex flex-col justify-end items-end ml-8 mt-8">
+              <div className="max-w-[600px] -mb-2">
+                <Image src="/images/illustrations/print-services-dark.png" width="600" height="383"/>
+              </div>
             </div>
-            <div className="flex dark:hidden flex-col justify-end ml-8 mt-8">
-              <Image src="/images/illustrations/print-services-light.png" width="600" height="383"/>
+            <div className="flex dark:hidden flex-col justify-end items-end ml-8 mt-8">
+              <div className="max-w-[600px] -mb-2">
+                <Image src="/images/illustrations/print-services-light.png" width="600" height="383"/>
+              </div>
             </div>
           </div>
         </Card>

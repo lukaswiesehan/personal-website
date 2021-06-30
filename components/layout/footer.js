@@ -5,7 +5,7 @@ import {faInstagram, faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-
 export const Footer = () => {
   const currentYear = new Date().getFullYear()
   return (
-    <footer className="mt-24 mb-24 lg:mb-16 text-sm text-gray-500 dark:text-cool-gray-400">
+    <footer className="mt-16 md:mt-24 mb-24 lg:mb-16 text-sm text-gray-500 dark:text-cool-gray-400">
       <div className="flex items-center space-x-4 mb-4">
         <p className="flex-shrink-0">&copy; Lukas Wiesehan {currentYear}</p>
         <hr className="flex-grow h-0.5 bg-warm-gray-200 dark:bg-cool-gray-600 border-transparent"/>

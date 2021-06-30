@@ -15,22 +15,22 @@ export const About = () => {
         title={<h1><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler,</span><br/>Bastler, Ingenieur</h1>}
         text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
       />
-      <div className="grid grid-cols-2 grid-rows-3 gap-8">
-        <Card>
+      <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 gap-8">
+        <Card className="order-1">
           <div className="p-7 pt-6 space-y-4">
-            <div className="flex">
+            <div className="flex justify-between">
               <div className="space-y-4">
                 <Heading><span className="text-teal-600 dark:text-teal-500">Ich bin Lukas,</span></Heading>
                 <p>selbstständiger Designer und Entwickler bei Hamburg.</p>
               </div>
-              <div className="flex-shrink-0 transform transition-transform duration-300 group-hover:rotate-3 group-hover:scale-105"><Memoji/></div>
+              <div className="flex-shrink-0 ml-4 transform transition-transform duration-300 group-hover:rotate-3 group-hover:scale-105"><Memoji/></div>
             </div>
             <p>Ich lebe meine Kreativität im Design aus und fordere meine technischen Fähigkeiten bei der Entwicklung. Für mich die perfekte Kombination.</p>
           </div>
         </Card>
-        <Card className="row-span-2">
+        <Card className="order-3 md:order-2 md:row-span-2">
           <div className="p-7 pt-6 h-full flex flex-col justify-between">
-            <div className="space-y-4 mb-4">
+            <div className="space-y-4 mb-8">
               <Heading>Privat</Heading>
               <EmojiList elements={[
                 {emoji: 'light-bulb', text: 'Ich bastle gern an Elektronik- und 3D-Druck-Projekten.'},
@@ -44,7 +44,7 @@ export const About = () => {
             <CardLink href="https://instagram.com/lukaswiesehan" anchor="Instagram" ext={true}/>
           </div>
         </Card>
-        <Card>
+        <Card className="order-2 md:order-3">
           <div className="p-7 pt-6 space-y-4">
             <Heading>Hintergrund</Heading>
             <EmojiList elements={[
@@ -54,15 +54,15 @@ export const About = () => {
             ]}/>
           </div>
         </Card>
-        <Card className="col-span-2 grid grid-cols-2 gap-8 overflow-hidden">
-          <div className="hidden dark:flex flex-col justify-end">
+        <Card className="order-4 md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 overflow-hidden">
+          <div className="order-2 md:order-1 mr-8 md:mr-0 max-w-[600px] hidden dark:flex flex-col justify-end">
             <Image src="/images/illustrations/about-work-dark.png" width="600" height="336"/>
           </div>
-          <div className="flex dark:hidden flex-col justify-end">
+          <div className="order-2 md:order-1 mr-8 md:mr-0 max-w-[600px] flex dark:hidden flex-col justify-end">
             <Image src="/images/illustrations/about-work-light.png" width="600" height="336"/>
           </div>
-          <div className="p-7 pt-6 pl-0 flex flex-col justify-between">
-            <div className="space-y-4 mb-4">
+          <div className="order-1 md:order-2 px-7 pt-6 md:pb-7 md:pl-0 flex flex-col justify-between">
+            <div className="space-y-4 mb-8">
               <Heading>Über meine Arbeit</Heading>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque ornare proin auctor diam. Gravida nulla a, aliquet id elementum facilisi.</p>
             </div>
