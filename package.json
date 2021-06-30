@@ -19,6 +19,7 @@
     "next-themes": "^0.0.14",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-intersection-observer": "^8.32.0",
     "react-protected-mailto": "^1.0.3"
   },
   "devDependencies": {
