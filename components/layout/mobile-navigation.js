@@ -49,7 +49,7 @@ export const MobileNavigation = ({className}) => {
           <LightSwitch/>
         </motion.div>
       </motion.div>
-      <button className="fixed z-20 bottom-8 left-8 flex justify-center items-center h-12 w-12 rounded-xl 
+      <button className="fixed z-20 bottom-8 left-1/2 transform -translate-x-1/2 flex justify-center items-center h-12 w-12 rounded-xl 
         bg-teal-600 dark:bg-teal-500 shadow dark:shadow-lg text-warm-gray-200 dark:text-cool-gray-600
         focus:outline-none focus:ring-2 focus:ring-teal-600 dark:focus:ring-teal-500 
         focus:ring-offset-2 focus:ring-offset-warm-gray-200 dark:focus:ring-offset-cool-gray-600
