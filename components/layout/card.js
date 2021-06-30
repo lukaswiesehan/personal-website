@@ -8,7 +8,7 @@ export const Card = ({className, children}) => {
   })
 
   const cardVariants = {
-    inView: {y: 0, opacity: 1, scale: 1, transition: {ease: 'linear'}},
+    inView: {y: 0, opacity: 1, scale: 1, transition: {ease: 'backIn'}},
     notInView: {y: 48, opacity: 0, scale:0.95}
   }
 
