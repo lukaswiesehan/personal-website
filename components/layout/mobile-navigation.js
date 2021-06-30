@@ -15,6 +15,15 @@ const Path = (props) => (
 export const MobileNavigation = ({className}) => {
   const [isOpen, toggleOpen] = useCycle(false, true)
 
+  const toggleNav = () => {
+    if(!isOpen) {
+      document.body.classList.add('nav-opened')
+    } else {
+      document.body.classList.remove('nav-opened')
+    }
+    toggleOpen()
+  }
+
   const bgVariants = {
     open: {opacity: 1, transition: {staggerChildren: 0.07, delayChildren: 0.2}, display: 'block'},
     closed: {opacity: 0, transition: {delay: 0.40, staggerChildren: 0.05, staggerDirection: -1}, transitionEnd: {display: 'none'}}
@@ -54,12 +63,12 @@ export const MobileNavigation = ({className}) => {
         focus:outline-none focus:ring-2 focus:ring-teal-600 dark:focus:ring-teal-500 
         focus:ring-offset-2 focus:ring-offset-warm-gray-200 dark:focus:ring-offset-cool-gray-600
         active:bg-teal-700 dark:active:bg-teal-600"
-        onClick={toggleOpen}
+        onClick={toggleNav}
       >
         <svg className="w-6 h-6 stroke-current" viewBox="0 0 22 20">
-          <Path variants={{closed: {d: "M 2 2.5 L 20 2.5"}, open: {d: "M 3 16.5 L 17 2.5"}}}/>
+          <Path variants={{closed: {d: "M 2 2.5 L 20 2.5"}, open: {d: "M 4 16.5 L 18 2.5"}}}/>
           <Path d="M 2 9.423 L 20 9.423" variants={{closed: {opacity: 1}, open: {opacity: 0}}} transition={{duration: 0.1}}/>
-          <Path variants={{closed: {d: "M 2 16.346 L 20 16.346"}, open: {d: "M 3 2.5 L 17 16.346"}}}/>
+          <Path variants={{closed: {d: "M 2 16.346 L 20 16.346"}, open: {d: "M 4 2.5 L 18 16.346"}}}/>
         </svg>
       </button>
     </motion.nav>

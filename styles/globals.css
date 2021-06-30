@@ -21,4 +21,7 @@
 	html.dark {
     @apply bg-cool-gray-700 text-cool-gray-300;
   }
+	body.nav-opened {
+    @apply fixed w-full h-full overflow-hidden;
+  }
 }
