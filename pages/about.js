@@ -13,7 +13,7 @@ export const About = () => {
       <Title
         breadcrumbs={[{text: 'Über Mich', emoji: 'victory-hand'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler,</span><br/>Bastler, Ingenieur</h1>}
-        text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
+        text={<p>Erfahre hier ein bisschen was über meinen Hintergrund und darüber, was ich abseits des Laptops so mache.</p>}
       />
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 gap-8">
         <Card className="order-1">
@@ -63,8 +63,8 @@ export const About = () => {
           </div>
           <div className="order-1 md:order-2 px-7 pt-6 md:pb-7 md:pl-0 flex flex-col justify-between">
             <div className="space-y-4 mb-8">
-              <Heading>Über meine Arbeit</Heading>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque ornare proin auctor diam. Gravida nulla a, aliquet id elementum facilisi.</p>
+              <Heading>Über die Arbeit</Heading>
+              <p>In der Abi-Zeit habe ich mit dem Gestalten von Prints begonnen. Während der Ausbildung kam das Programmieren dazu. Mit der Webentwicklung hab' ich später perfekte Kombination aus Design & Technik gefunden.</p>
             </div>
             <CardLink href="/showcase" anchor="Showcase"/>
           </div>
