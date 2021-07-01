@@ -36,7 +36,7 @@ export const LightSwitch = () => {
   }
 
   const rayVariants = {
-    dark: {scale: 0, opacity: 0},
+    dark: {scale: 0, opacity: 0, duration: 0.1},
     light: {scale: 1, opacity: 1}
   }
 
