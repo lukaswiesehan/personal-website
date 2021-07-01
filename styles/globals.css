@@ -19,7 +19,7 @@
     @apply bg-warm-gray-300 text-gray-600;
   }
 	html.dark {
-    @apply bg-cool-gray-700 text-cool-gray-300;
+    @apply bg-cool-gray-800 text-cool-gray-300;
   }
 	body.nav-opened {
     @apply fixed w-full h-full overflow-hidden;
