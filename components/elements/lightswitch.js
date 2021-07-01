@@ -31,13 +31,13 @@ export const LightSwitch = () => {
   }
 
   const raysVariants = {
-    dark: {opacity: 0, duration: 0},
-    light: {opacity: 1, transition: {staggerChildren: 0.07}}
+    dark: {},
+    light: {transition: {staggerChildren: 0.07}}
   }
 
   const rayVariants = {
-    dark: {scale: 0},
-    light: {scale: 1}
+    dark: {scale: 0, opacity: 0, origin: '256, 205'},
+    light: {scale: 1, opacity: 1,  origin: '256, 205'}
   }
 
   useEffect(() => {
