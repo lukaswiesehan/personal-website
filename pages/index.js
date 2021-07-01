@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import {Container} from '@/components/layout/container'
 import {Title} from '@/components/layout/title'
 import {Card} from '@/components/layout/card'
@@ -12,7 +11,12 @@ export const Index = () => {
       <Title
         breadcrumbs={[{text: 'Moini', emoji: 'victory-hand'}]}
         title={<h1>Ich bin Lukas,<br/><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler</span></h1>}
-        text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
+        text={
+          <div className="space-y-4">
+            <p>Ich designe Grafiken, Prints und Websites - letztere setze ich mithilfe modernster Web-Technologien um.</p>
+            <p>Ich freu' mich auf Deine Nachricht.</p>
+          </div>
+        }
       />
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-8">
         <Card>
