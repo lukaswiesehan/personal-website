@@ -13,7 +13,12 @@ export const Services = () => {
       <Title
         breadcrumbs={[{text: 'Services', emoji: 'flexed-biceps'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">Full Service</span><br/>Design, Druck & Entwicklung</h1>}
-        text={<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>}
+        text={
+          <div className="space-y-4">
+            <p>Hier findest Du einen kompakten Ausschnitt meiner wesentlichen Services.</p>
+            <p>Wenn Du Dir nicht sicher bist, ob Dein Projekt was für mich ist, schreib' mir einfach eine kurze Email.</p>
+          </div>
+        }
       />
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-8">
         <Card className="md:col-span-2 overflow-hidden">
