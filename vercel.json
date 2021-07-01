@@ -18,11 +18,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/services"
-    }
   ]
 }

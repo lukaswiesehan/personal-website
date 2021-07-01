@@ -41,7 +41,7 @@ export const MobileNavigation = ({className}) => {
         variants={bgVariants}
       >
         <motion.div variants={childVariants}>
-          <Link href="/services">
+          <Link href="/">
             <div className="text-lg leading-tight cursor-pointer">
               <strong>Lukas Wiesehan</strong><br/>Design &<br/>Development
             </div>
