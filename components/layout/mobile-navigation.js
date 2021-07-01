@@ -35,7 +35,7 @@ export const MobileNavigation = ({className}) => {
   }
 
   return (
-    <motion.nav className={className} initial={false} animate={isOpen ? "open" : "closed"}>
+    <motion.nav className={className} initial={false} animate={isOpen ? 'open' : 'closed'}>
       <motion.div className="fixed z-10 w-screen h-screen left-0 top-0 space-y-16
         pt-8 px-8 bg-warm-gray-300 dark:bg-cool-gray-800" 
         variants={bgVariants}
