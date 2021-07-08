@@ -45,7 +45,7 @@ export const LightSwitch = () => {
   }, [])
 
   return (
-    <button onClick={toggleDarkMode} className="text-teal-600 dark:text-teal-500 text-xl">
+    <button onClick={toggleDarkMode} className="text-teal-600 dark:text-teal-500 text-xl" aria-label={`Dark Mode ${theme == 'dark' ? 'ausschalten' : 'einschalten'}`}>
       <motion.div initial={false} animate={isDark ? 'dark' : 'light'} variants={baseVariants}>
         <svg className="h-6 fill-current" viewBox="0 0 512 410">
           <g>
