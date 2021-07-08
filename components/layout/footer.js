@@ -17,9 +17,9 @@ export const Footer = () => {
           <li><Link href="/contact">Kontakt</Link></li>
         </ul>
         <ul className="flex space-x-4 mt-4 sm:mt-0">
-          <li><Link href="https://instagram.com/lukaswiesehan"><a target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/><span className="hidden">Instagram</span></a></Link></li>
-          <li><Link href="https://www.linkedin.com/in/lukas-wiesehan-74931b1bb/"><a target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn}/><span className="hidden">LinkedIn</span></a></Link></li>
-          <li><Link href="https://github.com/lukaswiesehan"><a target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}/><span className="hidden">GitHub</span></a></Link></li>
+          <li><Link href="https://instagram.com/lukaswiesehan"><a target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/><span className="inline-block h-0 w-0 overflow-hidden">Instagram</span></a></Link></li>
+          <li><Link href="https://www.linkedin.com/in/lukas-wiesehan-74931b1bb/"><a target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn}/><span className="inline-block h-0 w-0 overflow-hidden">LinkedIn</span></a></Link></li>
+          <li><Link href="https://github.com/lukaswiesehan"><a target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub}/><span className="inline-block h-0 w-0 overflow-hidden">GitHub</span></a></Link></li>
         </ul>
       </div>
     </footer>
