@@ -8,7 +8,7 @@ export const Container = ({children, ...customMeta}) => {
   const router = useRouter()
   const meta = {
     title: 'Lukas Wiesehan - Designer & Entwickler',
-    description: '',
+    description: 'Ich sorge für Deinen modernen & professionellen Auftritt innerhalb und außerhalb des Internets.',
     url: 'https://lukaswiesehan.de',
     name: 'Lukas Wiesehan',
     image: 'https://lukaswiesehan.de/images/banner.jpg',
