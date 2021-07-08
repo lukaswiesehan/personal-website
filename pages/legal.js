@@ -17,7 +17,6 @@ export const Legal = () => {
           <Heading>Betreiber der Website</Heading>
           <p><strong>Lukas Wiesehan</strong><br/>Design & Development</p>
           <EmojiList elements={[
-            {emoji: 'light-bulb', text: 'Einzelunternehmen'},
             {emoji: 'house', text: <>Herrenstraße 30a<br/>21698 Harsefeld</>},
             {emoji: 'e-mail', text: <Mailto email="mail@lukaswiesehan.de" obfuscatedHref="email"/>}
           ]}/>

@@ -7,7 +7,7 @@ import {Footer} from '@/components/layout/footer'
 export const Container = ({children, ...customMeta}) => {
   const router = useRouter()
   const meta = {
-    title: 'Lukas Wiesehan - Designer & Entwickler bei Hamburg',
+    title: 'Lukas Wiesehan - Designer & Entwickler',
     description: '',
     url: 'https://lukaswiesehan.de',
     name: 'Lukas Wiesehan',
@@ -42,7 +42,7 @@ export const Container = ({children, ...customMeta}) => {
         <link rel="icon" href="/favicon.ico"/>
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(jsonLd)}}/>
       </Head>
-      <Navigation className="hidden lg:block"/>
+      <Navigation className="hidden lg:block lg:ml-8 xl:ml-0"/>
       <MobileNavigation className="lg:hidden"/>
       <div className="w-full mx-auto max-w-screen-md">
         <main>

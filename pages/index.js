@@ -9,11 +9,11 @@ export const Index = () => {
   return (
     <Container>
       <Title
-        breadcrumbs={[{text: 'Moini', emoji: 'victory-hand'}]}
+        breadcrumbs={[{text: 'Moin', emoji: 'victory-hand'}]}
         title={<h1>Ich bin Lukas,<br/><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler</span></h1>}
         text={
           <div className="space-y-4">
-            <p>Ich designe Grafiken, Prints und Websites - letztere setze ich mithilfe modernster Web-Technologien um.</p>
+            <p>Ich sorge für Deinen modernen & professionellen Auftritt innerhalb und außerhalb des Internets.</p>
             <p>Ich freu' mich auf Deine Nachricht.</p>
           </div>
         }

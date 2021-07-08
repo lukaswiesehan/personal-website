@@ -15,7 +15,7 @@ export const Services = () => {
         title={<h1><span className="text-teal-600 dark:text-teal-500">Full Service</span><br/>Design, Druck & Entwicklung</h1>}
         text={
           <div className="space-y-4">
-            <p>Hier findest Du einen kompakten Ausschnitt meiner wesentlichen Services.</p>
+            <p>Hier erhältst Du einen kompakten Überblick darüber, wie ich Dir helfen kann.</p>
             <p>Wenn Du Dir nicht sicher bist, ob Dein Projekt was für mich ist, schreib' mir einfach eine kurze Email.</p>
           </div>
         }
@@ -42,7 +42,7 @@ export const Services = () => {
                   {emoji: 'hammer-and-wrench', text: 'Abgestimmter Funktionsumfang'},
                   {emoji: 'high-voltage', text: 'Herausragende Performance'},
                   {emoji: 'mobile-phone', text: 'Optimiert für alle Endgeräte'},
-                  {emoji: 'magnifying-glass-tilted-right', text: 'Grundlegende Suchmaschinenoptimierung'}
+                  {emoji: 'magnifying-glass-tilted-right', text: 'Suchmaschinenoptimiert'}
                 ]}/>
               </div>
               <CardLink href="/contact" anchor="Lass uns loslegen"/>

@@ -20,7 +20,7 @@ export const CardLink = ({href, anchor, ext, email}) => {
   } else {
     return (
       <Link href={href}>
-        <a className="flex items-center space-x-2 font-bold text-gray-700 dark:text-cool-gray-100" target={ext && 'blank'}>
+        <a className="flex items-center space-x-2 font-bold text-gray-700 dark:text-cool-gray-100" target={ext && 'blank'} rel={ext && 'noreferrer'}>
           <FontAwesomeIcon icon={faLongArrowRight} className="text-teal-600 dark:text-teal-500 text-lg"/>
           <span className="
             md:opacity-0 transform md:-translate-x-3 md:scale-95
