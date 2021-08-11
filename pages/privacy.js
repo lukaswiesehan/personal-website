@@ -7,7 +7,7 @@ import {EmojiList} from '@/components/elements/emoji-list'
 
 export const Privacy = () => {
   return (
-    <Container>
+    <Container title="Datenschutzerklärung - Lukas Wiesehan">
       <Title
         breadcrumbs={[{text: 'lukaswiesehan.de'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">Datenschutzerklärung</span></h1>}

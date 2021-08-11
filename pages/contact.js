@@ -8,7 +8,7 @@ import {ContactForm} from '@/components/elements/contact-form'
 
 export const Contact = () => {
   return (
-    <Container>
+    <Container title="Kontakt - Lukas Wiesehan" description="Lass uns über Dein Projekt sprechen.">
       <Title
         breadcrumbs={[{text: 'Kontakt', emoji: 'waving-hand'}]}
         title={<h1>Lass uns über<br/><span className="text-teal-600 dark:text-teal-500">Dein Projekt</span><br/>sprechen</h1>}

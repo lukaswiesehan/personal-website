@@ -9,7 +9,7 @@ import {CardLink} from '@/components/elements/card-link'
 
 export const Services = () => {
   return (
-    <Container>
+    <Container title="Services - Lukas Wiesehan" description="Full Service Design, Druck & Entwicklung - Ich sorge für Deinen modernen & professionellen Auftritt innerhalb und außerhalb des Internets.">
       <Title
         breadcrumbs={[{text: 'Services', emoji: 'flexed-biceps'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">Full Service</span><br/>Design, Druck & Entwicklung</h1>}

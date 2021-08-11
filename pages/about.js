@@ -9,7 +9,7 @@ import {CardLink} from '@/components/elements/card-link'
 
 export const About = () => {
   return (
-    <Container>
+    <Container title="Über Mich - Lukas Wiesehan" description="Designer & Entwickler, Bastler, Ingenieur - Erfahre ein bisschen was über meinen Hintergrund und darüber, was ich abseits des Laptops so mache.">
       <Title
         breadcrumbs={[{text: 'Über Mich', emoji: 'victory-hand'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">Designer & Entwickler,</span><br/>Bastler, Ingenieur</h1>}

@@ -7,7 +7,7 @@ import {CardLink} from '@/components/elements/card-link'
 
 export const Error = () => {
   return (
-    <Container>
+    <Container title="404: Die Seite existiert nicht - Lukas Wiesehan">
       <Title
         breadcrumbs={[{text: 'Hm...'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">404</span></h1>}

@@ -8,7 +8,7 @@ import {CardLink} from '@/components/elements/card-link'
 
 export const Showcase = () => {
   return (
-    <Container>
+    <Container title="Showcase - Lukas Wiesehan" description="Eine Auswahl meiner aktuellen Projekte & Details zur jeweiligen Umsetzung.">
       <Title
         breadcrumbs={[{text: 'Showcase', emoji: 'call-me-hand'}]}
         title={<h1><span className="text-teal-600 dark:text-teal-500">Aktuelle Projekte</span></h1>}
