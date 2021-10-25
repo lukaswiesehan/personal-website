@@ -16,13 +16,7 @@ export const Showcase = () => {
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <Card className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 overflow-hidden">
-          <div className="mx-7 md:mt-7 md:mr-0 max-w-[600px] hidden dark:flex flex-col justify-end">
-            <Image src="/images/showcase/scoo-brewery-dark.png" width="600" height="445"/>
-          </div>
-          <div className="mx-7 md:mt-7 md:mr-0 max-w-[600px] flex dark:hidden flex-col justify-end">
-            <Image src="/images/showcase/scoo-brewery-light.png" width="600" height="445"/>
-          </div>
-          <div className="px-7 pt-6 md:pl-0 md:pb-7 flex flex-col justify-end">
+          <div className="md:order-2 px-7 pt-6 md:pl-0 md:pb-7 flex flex-col justify-end">
             <div className="space-y-4 mb-8">
               <div>
                 <SubHeading>Website</SubHeading>
@@ -32,7 +26,12 @@ export const Showcase = () => {
             </div>
             <CardLink href="/showcase/scoo-brewery" anchor="Mehr erfahren"/>
           </div>
-          
+          <div className="md:order-1 mx-7 md:mt-7 md:mr-0 max-w-[600px] hidden dark:flex flex-col justify-end">
+            <Image src="/images/showcase/scoo-brewery-dark.png" width="600" height="445"/>
+          </div>
+          <div className="md:order-1 mx-7 md:mt-7 md:mr-0 max-w-[600px] flex dark:hidden flex-col justify-end">
+            <Image src="/images/showcase/scoo-brewery-light.png" width="600" height="445"/>
+          </div>
         </Card>
         <Card className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 overflow-hidden">
           <div className="px-7 pt-6 md:pr-0 md:pb-7 flex flex-col justify-end">
