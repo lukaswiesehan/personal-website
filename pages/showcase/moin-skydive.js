@@ -11,7 +11,7 @@ export const Project = () => {
     <Container title="Web-Projekt: Moin Skydive - Lukas Wiesehan">
       <Title
         breadcrumbs={[{text: 'Showcase', emoji: 'call-me-hand', href: '/showcase'}, {text: 'Moin Skydive'}]}
-        title={<h1>Web-Projekt: <span className="text-teal-600 dark:text-teal-500">Moin Skydive</span></h1>}
+        title={<h1>Web-Projekt:<br/><span className="text-teal-600 dark:text-teal-500">Moin Skydive</span></h1>}
         text={<div className="space-y-8"><p>Marketing-Website mit Instagram-Einbindung und Buchungs- und Zahlungssystem für Tandem-Fallschirmsprünge.</p><ArrowLink href="https://moin-skydive.hamburg/" anchor="moin-skydive.hamburg" ext/></div>}
       />
       <div className="space-y-12">
