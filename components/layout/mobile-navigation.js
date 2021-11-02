@@ -62,6 +62,7 @@ export const MobileNavigation = ({className}) => {
         focus:outline-none focus:ring-2 focus:ring-teal-600 dark:focus:ring-teal-500 
         focus:ring-offset-2 focus:ring-offset-warm-gray-200 dark:focus:ring-offset-cool-gray-800
         active:bg-teal-700 dark:active:bg-teal-600"
+        aria-label={`Menü ${isOpen ? 'schließen' : 'öffnen'}`}
         onClick={toggleNav}
       >
         <svg className="w-6 h-6 stroke-current" viewBox="0 0 22 20">

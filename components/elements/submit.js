@@ -9,6 +9,7 @@ export const Submit = ({loading, success, error}) => {
       focus:ring-offset-2 focus:ring-offset-warm-gray-200 dark:focus:ring-offset-cool-gray-700`}
       type="submit"
       tabIndex="0"
+      aria-label="Anfrage absenden"
       disabled={loading || error || success}
     >
       {loading ? <FontAwesomeIcon icon={faSpinnerThird} className="animate-spin text-warm-gray-200 dark:text-cool-gray-700 text-lg"/>
