@@ -26,10 +26,10 @@
 	body.nav-opened {
     @apply fixed w-full h-full overflow-hidden;
   }
-	input {
-		filter: none;
-	}
-	input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
-		-webkit-box-shadow: 0 0 0 30px white inset !important;
-	}
+  input {
+    filter: none;
+  }
+  input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
 }
